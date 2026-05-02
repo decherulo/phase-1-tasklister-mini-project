@@ -8,6 +8,6 @@ form.addEventListener('submit', (event) => {
 function buildToDo(task) {
   const li = document.createElement('li');
   li.textContent = task;
-  document.getElementById('task').appendChild(li);
+  document.getElementById('tasks').appendChild(li);
 }
 });
